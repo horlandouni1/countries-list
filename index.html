@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Países</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top"></div>
+    <header class="header">
+      <h1>Lista de Países</h1>
+      <input type="text" id="searchInput" placeholder="Buscar país..." />
+    </header>
+    <div class="content">
+      <main class="main-content">
+        <div id="loader" class="loader"></div>
+        <div id="countriesGrid" class="countries-grid"></div>
+      </main>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2025 Lista de Países</p>
+    </footer>
+    <div class="bottom"></div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <h2 id="continent"></h2>
+        <div id="countryDetails"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
